@@ -1,0 +1,17 @@
+body{
+	background: url("image 3.jpg") repeat;
+}
+TD.glav{
+background: blue;
+}
+tr{
+	background:  #00BFFF;
+}
+td{
+	text-align: center;
+	font-family:  Verdana, sans-serif
+}
+table{
+	margin: auto;
+	width: 690px;
+}

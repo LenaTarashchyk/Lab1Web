@@ -1,0 +1,70 @@
+body{
+	background: url("image 3.jpg") repeat;
+}
+DIV.header{ 
+    padding: 10px; 
+    border: solid 1px #000; 
+    background:linear-gradient(to top, #DDA0DD, #00FFFF); 
+   }
+  DIV .header { /* Шапка */
+    
+    font-size: 20px; 
+   }
+  DIV .layout {
+    margin: 15px 0;
+    overflow: hidden; /* Отменяется действие float */
+    min-width: 800px;
+    max-width: 1200px; 
+   }
+  DIV.sidebar { /*Левая колонка */
+    width: 150px; 
+    height: 395px;
+    float: left; 
+   position: fixed;
+   padding: 10px; 
+    border: solid 1px #000; 
+    background: #DDA0DD; 
+      }
+  DIV.sidebar ul {
+    padding: 0; 
+   }
+  DIV.content { /* Правая колонка */
+    margin-left: 180px; 
+    padding: 10px; 
+    border: solid 1px #000; 
+    background: #DDA0DD; 
+}
+DIV.footer{
+	padding: 10px; 
+    border: solid 1px #000; 
+    background:linear-gradient(to top, #00FFFF, #DDA0DD); 
+   /* position: fixed; 
+    left: 0; bottom: 0; 
+    padding: 10px; 
+    width: 100%; /* Ширина слоя */
+}
+p{
+line-height: normal;
+text-indent: 15px;
+font-family:  Arial, sans-serif;
+font-size: 13px;
+}
+h3, h2, h1{
+	font-family:  Verdana, sans-serif
+}
+A.menu{
+	font-size: 17px;
+	colo
+}
+a {
+text-decoration: none;
+  font-size: 24px;
+  font-family: Verdana, cursive;
+  color: #2F4F4F;
+  text-shadow: 1px 1px black;
+}
+a:hover {
+  color: #F54318;
+  border-bottom: 1px solid #F54318;
+  
+}
